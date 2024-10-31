@@ -14,3 +14,5 @@ data "aws_eks_cluster_auth" "cluster" {
 data "external" "ingress_ip" {
   program = ["bash", "${path.module}/fetch_ingress_host.sh"]
 }
+
+## Test Comment
