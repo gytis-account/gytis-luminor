@@ -33,7 +33,7 @@ resource "helm_release" "atlantis" {
 
   set {
     name  = "orgAllowlist"
-    value = "github.com/gytis-account/gytis-devops"
+    value = "github.com/gytis-account/gytis-luminor"
   }
 
   set {
