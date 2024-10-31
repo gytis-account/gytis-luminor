@@ -67,3 +67,5 @@ resource "aws_iam_instance_profile" "eks_nodes" {
   name = "eks-instance-role"
   role = aws_iam_role.eks_nodes.name
 }
+
+#Test
